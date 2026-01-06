@@ -7,6 +7,10 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import os
 
+from backend.database import SessionLocal, engine
+from backend.models import Product, Base
+
+
 
 load_dotenv()
 
